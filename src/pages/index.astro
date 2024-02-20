@@ -9,15 +9,13 @@ import ModelXSection from '../components/ModelXSection.astro'
 import PowerwallSection from '../components/PowerwallSection.astro'
 import CargaSection from '../components/CargaSection.astro'
 
-
 ---
 
 <Layout title="Electric Cars, Solar & Clean Energy | Tesla"  >
 	
 	<Header/>
 	
-	<main class="snap-y snap-mandatory relative w-full h-screen overflow-auto scroll-m-0">
-		
+	<main class="snap-y snap-mandatory relative w-full h-screen overflow-x-hidden scroll-m-0 ">
 		<div class="snap-center">
 			<HomeSection/>
 		</div>
@@ -39,5 +37,9 @@ import CargaSection from '../components/CargaSection.astro'
 		<div class="snap-center">
 			<CargaSection/>
 		</div>
+
 	</main>
+
+	
+
 </Layout>
